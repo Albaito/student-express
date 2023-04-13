@@ -1,4 +1,6 @@
+let Sequelize = require('sequelize')
 let express = require('express')
+const { sequelize } = require('../models')
 let db = require('../models')
 let Student = db.Student
 
