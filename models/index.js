@@ -14,7 +14,9 @@ let db = {}
 
 let sequelize =  new Sequelize(config)
 
-let studentModel = require('./student')(sequelize, DataTypes)
+let studentModelCreate = require('./student')
+let studentModel = studentModelCreate(sequelize, DataTypes)
+
 db[studentModel.name] = studentModel
 
 db.sequelize = sequelize
