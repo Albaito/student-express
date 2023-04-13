@@ -5,16 +5,8 @@
     },
     "production" : {
         "username": "tramaine",
-        "password": "as:/sd35gsa2a\"sderroasp;asd,v!",
-        "host": "studen-sign-in-database.windows.net",
+        "host": "student-sign-in-database-sever.database.windows.net",
         "database": "studen-sign-in-database",
-        "dialect": "mssql",
-        "ssl": true,
-        "dialectOptions": {
-            "ssl": {
-                "require": true,
-                "rejectUnauthorized": false
-            }
-        }
+        "dialect": "mssql"
     }
 }
